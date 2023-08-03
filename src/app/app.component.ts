@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-destroy';
+
+  isBannerCreated = false;
+
+  onOffBanner() {
+    this.isBannerCreated = !this.isBannerCreated;
+  }
 }
